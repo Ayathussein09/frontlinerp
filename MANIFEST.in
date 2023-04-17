@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frontlinerp *.css
+recursive-include frontlinerp *.csv
+recursive-include frontlinerp *.html
+recursive-include frontlinerp *.ico
+recursive-include frontlinerp *.js
+recursive-include frontlinerp *.json
+recursive-include frontlinerp *.md
+recursive-include frontlinerp *.png
+recursive-include frontlinerp *.py
+recursive-include frontlinerp *.svg
+recursive-include frontlinerp *.txt
+recursive-exclude frontlinerp *.pyc
